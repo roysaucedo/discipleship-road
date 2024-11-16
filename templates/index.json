@@ -1,0 +1,465 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Discipleship Road",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Join the Community  (It's 100% Free)",
+            "button_link_1": "shopify:\/\/pages\/join-the-community",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_ipDQXA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Deepen your walk with Christ. Whether you're just starting your journey or seeking to go deeper, we're here to support your path to discipleship.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button",
+        "text_ipDQXA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/forest-road.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>\"<\/strong><\/em><strong>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit<\/strong><em><strong>\" - Matthew 28:19<\/strong><\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_CehVPG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_84YkzC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_7_3.svg",
+            "title": "",
+            "text": "<h1><strong>The Site<\/strong><\/h1><p>This site includes a <strong>curated selection of some of the best books for new believers and long-time Christ-followers<\/strong> wanting to discover more of who Jesus is and what it means to follow Him. Gain critical insight into the generally forgotten heritage of today’s church and <strong>discover long-lost gems<\/strong>—time-tested books that changed the lives of people in generations past and can also change yours.<\/p><p>It will include <strong>inspiring videos, enriching audio messages, suggested resources, free materials, and Bible-based encouragement<\/strong>, made available exclusively to the D-Road Community. Be inspired by encouraging testimonies of heroes of the faith as we re-introduce their powerful stories and holy history to a new generation. Exciting opportunities for multi-media interactivity with other followers of Christ as we learn and grow together in the Discipleship Road Community.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dGagMA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_6_2.svg",
+            "title": "",
+            "text": "<h1><strong>The Community<\/strong><\/h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. <\/p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! <\/p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. <\/p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. <\/p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_84YkzC",
+        "column_dGagMA"
+      ],
+      "custom_css": [
+        "h1,h2 {text-align: center;}",
+        "#Slide-template--18234166214882__multicolumn_CehVPG-1 > div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}",
+        "#Slide-template--18234166214882__multicolumn_CehVPG-2 > div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}"
+      ],
+      "settings": {
+        "title": "<strong>A curated selection of some of the best books for new believers and long-time Christ-followers<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "https:\/\/discipleshiproad.com\/account\/register",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_z68Kkq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8xqgpj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_6_2.svg",
+            "title": "",
+            "text": "<h1><strong>The Community<\/strong><\/h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. <\/p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! <\/p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. <\/p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. <\/p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8xqgpj"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "https:\/\/discipleshiproad.com\/account\/register",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_NCz73a": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yR8gwE": {
+          "type": "heading",
+          "settings": {
+            "heading": "I want to be a part of the Discipleship Road Community",
+            "heading_size": "h1"
+          }
+        },
+        "button_fXeUUg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Click Here to Join",
+            "button_link": "https:\/\/discipleshiproad.com\/account\/register",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yR8gwE",
+        "button_fXeUUg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_AfJ4EA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yYpyBV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Every Christian need their own library",
+            "heading_size": "h1"
+          }
+        },
+        "text_T7iAnJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your spiritual journey deserves more than borrowed wisdom. Like early believers who treasured their scrolls, today's Christian needs their own sanctuary of sacred learning. <\/p><p>A personal library isn't just books—it's your spiritual armory, where highlighted passages become battle-tested truths and dog-eared pages mark moments of divine revelation.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_iPewFF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore our collection",
+            "button_link": "shopify:\/\/collections\/explore-the-library",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yYpyBV",
+        "text_T7iAnJ",
+        "button_iPewFF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/young-woman-enjoying-a-good-book.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_8meUgE": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h1,h2,p {text-align: center;}",
+        "* {}",
+        "#Slide-template--18234166214882__featured_collection_8meUgE-1 > div > div > div.card__content > div.card__information > div > div > div > div.price__sale > span > s {display: none;}",
+        "#Slide-template--18234166214882__featured_collection_8meUgE-2 > div > div > div.card__content > div.card__information > div > div > div > div.price__sale > span:nth-child(2) > s {display: none;}"
+      ],
+      "settings": {
+        "title": "<strong>The Essentials<\/strong>",
+        "heading_size": "h0",
+        "description": "<p>Your Discipleship Journey Starts Here. <\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "featured-products",
+        "products_to_show": 2,
+        "grid_width": 70,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_aHX6wL": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h1,h2,p {text-align: center;}"
+      ],
+      "settings": {
+        "title": "<strong>Start Here<\/strong>",
+        "heading_size": "h0",
+        "description": "<p>Curated bundles to start building your own library<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "featured-products",
+        "products_to_show": 2,
+        "grid_width": 70,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 68
+      }
+    },
+    "featured_collection1": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h1,h2,p {text-align: center;}"
+      ],
+      "settings": {
+        "title": "<strong>The Library<\/strong>",
+        "heading_size": "h0",
+        "description": "<p>Discover timeless wisdom within these pages<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "explore-the-library",
+        "products_to_show": 25,
+        "grid_width": 100,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_G9ncKh": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h1,h2,p {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Bundle & Save",
+        "heading_size": "h1",
+        "description": "<p>We've curated some of our most impactful books just for you! <\/p><p>Plus, enjoy savings with your bundle order!<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bundles",
+        "products_to_show": 2,
+        "grid_width": 80,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_X4TLPM": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "Discipleship Books for Children",
+        "heading_size": "h1",
+        "description": "<p>(Available Jan 2025)<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "discipleship-books-for-children",
+        "products_to_show": 13,
+        "grid_width": 100,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_HUY4dk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XGTGz3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a book missionary!",
+            "heading_size": "h1"
+          }
+        },
+        "text_K9bdCC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Books change lives—and you can be part of that change. By gifting wisdom to others, you're planting seeds of transformation that span generations. <\/p><p>Start your own ripple of revelation by becoming a book missionary. Share the words that changed your life, and watch hope spread.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_8FUjh4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore our collection",
+            "button_link": "shopify:\/\/collections\/explore-the-library",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XGTGz3",
+        "text_K9bdCC",
+        "button_8FUjh4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-cottonbro-3585048.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text",
+    "multicolumn_CehVPG",
+    "multicolumn_z68Kkq",
+    "rich_text_NCz73a",
+    "image_with_text_AfJ4EA",
+    "featured_collection_8meUgE",
+    "featured_collection_aHX6wL",
+    "featured_collection1",
+    "featured_collection_G9ncKh",
+    "featured_collection_X4TLPM",
+    "image_with_text_HUY4dk"
+  ]
+}
