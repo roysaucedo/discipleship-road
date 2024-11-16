@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Discipleship_Road.png",
+    "logo": "shopify://shop_images/Discipleship_Road.png",
     "logo_width": 240,
-    "favicon": "shopify:\/\/shop_images\/Frame_46_1.png",
+    "favicon": "shopify://shop_images/Frame_46_1.png",
     "type_header_font": "dm_sans_n5",
     "heading_scale": 105,
     "type_body_font": "nunito_n4",
@@ -99,7 +108,7 @@
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-403fb858-4c77-4c56-97b8-1c10cc6dd054",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -359,7 +368,7 @@
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": "100",
       "social_facebook_link": "",
       "social_instagram_link": "",

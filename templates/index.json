@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -15,7 +24,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "Join the Community  (It's 100% Free)",
-            "button_link_1": "shopify:\/\/pages\/join-the-community",
+            "button_link_1": "shopify://pages/join-the-community",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,7 +46,7 @@
         "text_ipDQXA"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/forest-road.jpg",
+        "image": "shopify://shop_images/forest-road.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -56,7 +65,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>\"<\/strong><\/em><strong>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit<\/strong><em><strong>\" - Matthew 28:19<\/strong><\/em><\/p>"
+            "text": "<p><em><strong>\"</strong></em><strong>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit</strong><em><strong>\" - Matthew 28:19</strong></em></p>"
           }
         }
       },
@@ -78,9 +87,9 @@
         "column_84YkzC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_7_3.svg",
+            "image": "shopify://shop_images/Frame_7_3.svg",
             "title": "",
-            "text": "<h1><strong>The Site<\/strong><\/h1><p>This site includes a <strong>curated selection of some of the best books for new believers and long-time Christ-followers<\/strong> wanting to discover more of who Jesus is and what it means to follow Him. Gain critical insight into the generally forgotten heritage of today’s church and <strong>discover long-lost gems<\/strong>—time-tested books that changed the lives of people in generations past and can also change yours.<\/p><p>It will include <strong>inspiring videos, enriching audio messages, suggested resources, free materials, and Bible-based encouragement<\/strong>, made available exclusively to the D-Road Community. Be inspired by encouraging testimonies of heroes of the faith as we re-introduce their powerful stories and holy history to a new generation. Exciting opportunities for multi-media interactivity with other followers of Christ as we learn and grow together in the Discipleship Road Community.<\/p>",
+            "text": "<h1><strong>The Site</strong></h1><p>This site includes a <strong>curated selection of some of the best books for new believers and long-time Christ-followers</strong> wanting to discover more of who Jesus is and what it means to follow Him. Gain critical insight into the generally forgotten heritage of today’s church and <strong>discover long-lost gems</strong>—time-tested books that changed the lives of people in generations past and can also change yours.</p><p>It will include <strong>inspiring videos, enriching audio messages, suggested resources, free materials, and Bible-based encouragement</strong>, made available exclusively to the D-Road Community. Be inspired by encouraging testimonies of heroes of the faith as we re-introduce their powerful stories and holy history to a new generation. Exciting opportunities for multi-media interactivity with other followers of Christ as we learn and grow together in the Discipleship Road Community.</p>",
             "link_label": "",
             "link": ""
           }
@@ -88,9 +97,9 @@
         "column_dGagMA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_6_2.svg",
+            "image": "shopify://shop_images/Frame_6_2.svg",
             "title": "",
-            "text": "<h1><strong>The Community<\/strong><\/h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. <\/p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! <\/p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. <\/p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. <\/p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!<\/p>",
+            "text": "<h1><strong>The Community</strong></h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. </p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! </p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. </p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. </p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!</p>",
             "link_label": "",
             "link": ""
           }
@@ -102,11 +111,10 @@
       ],
       "custom_css": [
         "h1,h2 {text-align: center;}",
-        "#Slide-template--18234166214882__multicolumn_CehVPG-1 > div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}",
-        "#Slide-template--18234166214882__multicolumn_CehVPG-2 > div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}"
+        "div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}"
       ],
       "settings": {
-        "title": "<strong>A curated selection of some of the best books for new believers and long-time Christ-followers<\/strong>",
+        "title": "<strong>A curated selection of some of the best books for new believers and long-time Christ-followers</strong>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -114,7 +122,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
-        "button_link": "https:\/\/discipleshiproad.com\/account\/register",
+        "button_link": "https://discipleshiproad.com/account/register",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -128,9 +136,9 @@
         "column_8xqgpj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_6_2.svg",
+            "image": "shopify://shop_images/Frame_6_2.svg",
             "title": "",
-            "text": "<h1><strong>The Community<\/strong><\/h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. <\/p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! <\/p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. <\/p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. <\/p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!<\/p>",
+            "text": "<h1><strong>The Community</strong></h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. </p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! </p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. </p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. </p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!</p>",
             "link_label": "",
             "link": ""
           }
@@ -149,7 +157,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
-        "button_link": "https:\/\/discipleshiproad.com\/account\/register",
+        "button_link": "https://discipleshiproad.com/account/register",
         "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -171,7 +179,7 @@
           "type": "button",
           "settings": {
             "button_label": "Click Here to Join",
-            "button_link": "https:\/\/discipleshiproad.com\/account\/register",
+            "button_link": "https://discipleshiproad.com/account/register",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -205,7 +213,7 @@
         "text_T7iAnJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Your spiritual journey deserves more than borrowed wisdom. Like early believers who treasured their scrolls, today's Christian needs their own sanctuary of sacred learning. <\/p><p>A personal library isn't just books—it's your spiritual armory, where highlighted passages become battle-tested truths and dog-eared pages mark moments of divine revelation.<\/p>",
+            "text": "<p>Your spiritual journey deserves more than borrowed wisdom. Like early believers who treasured their scrolls, today's Christian needs their own sanctuary of sacred learning. </p><p>A personal library isn't just books—it's your spiritual armory, where highlighted passages become battle-tested truths and dog-eared pages mark moments of divine revelation.</p>",
             "text_style": "body"
           }
         },
@@ -213,7 +221,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore our collection",
-            "button_link": "shopify:\/\/collections\/explore-the-library",
+            "button_link": "shopify://collections/explore-the-library",
             "button_style_secondary": false
           }
         }
@@ -224,7 +232,7 @@
         "button_iPewFF"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/young-woman-enjoying-a-good-book.jpg",
+        "image": "shopify://shop_images/young-woman-enjoying-a-good-book.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -248,9 +256,9 @@
         "#Slide-template--18234166214882__featured_collection_8meUgE-2 > div > div > div.card__content > div.card__information > div > div > div > div.price__sale > span:nth-child(2) > s {display: none;}"
       ],
       "settings": {
-        "title": "<strong>The Essentials<\/strong>",
+        "title": "<strong>The Essentials</strong>",
         "heading_size": "h0",
-        "description": "<p>Your Discipleship Journey Starts Here. <\/p>",
+        "description": "<p>Your Discipleship Journey Starts Here. </p>",
         "show_description": false,
         "description_style": "body",
         "collection": "featured-products",
@@ -280,9 +288,9 @@
         "h1,h2,p {text-align: center;}"
       ],
       "settings": {
-        "title": "<strong>Start Here<\/strong>",
+        "title": "<strong>Start Here</strong>",
         "heading_size": "h0",
-        "description": "<p>Curated bundles to start building your own library<\/p>",
+        "description": "<p>Curated bundles to start building your own library</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "featured-products",
@@ -312,9 +320,9 @@
         "h1,h2,p {text-align: center;}"
       ],
       "settings": {
-        "title": "<strong>The Library<\/strong>",
+        "title": "<strong>The Library</strong>",
         "heading_size": "h0",
-        "description": "<p>Discover timeless wisdom within these pages<\/p>",
+        "description": "<p>Discover timeless wisdom within these pages</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "explore-the-library",
@@ -346,7 +354,7 @@
       "settings": {
         "title": "Bundle & Save",
         "heading_size": "h1",
-        "description": "<p>We've curated some of our most impactful books just for you! <\/p><p>Plus, enjoy savings with your bundle order!<\/p>",
+        "description": "<p>We've curated some of our most impactful books just for you! </p><p>Plus, enjoy savings with your bundle order!</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "bundles",
@@ -376,7 +384,7 @@
       "settings": {
         "title": "Discipleship Books for Children",
         "heading_size": "h1",
-        "description": "<p>(Available Jan 2025)<\/p>",
+        "description": "<p>(Available Jan 2025)</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "discipleship-books-for-children",
@@ -413,7 +421,7 @@
         "text_K9bdCC": {
           "type": "text",
           "settings": {
-            "text": "<p>Books change lives—and you can be part of that change. By gifting wisdom to others, you're planting seeds of transformation that span generations. <\/p><p>Start your own ripple of revelation by becoming a book missionary. Share the words that changed your life, and watch hope spread.<\/p>",
+            "text": "<p>Books change lives—and you can be part of that change. By gifting wisdom to others, you're planting seeds of transformation that span generations. </p><p>Start your own ripple of revelation by becoming a book missionary. Share the words that changed your life, and watch hope spread.</p>",
             "text_style": "body"
           }
         },
@@ -421,7 +429,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore our collection",
-            "button_link": "shopify:\/\/collections\/explore-the-library",
+            "button_link": "shopify://collections/explore-the-library",
             "button_style_secondary": false
           }
         }
@@ -432,7 +440,7 @@
         "button_8FUjh4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-cottonbro-3585048.jpg",
+        "image": "shopify://shop_images/pexels-cottonbro-3585048.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
