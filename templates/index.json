@@ -282,21 +282,53 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_aHX6wL": {
+    "featured_collection_zmWVxh": {
       "type": "featured-collection",
       "custom_css": [
         "h1,h2,p {text-align: center;}"
       ],
       "settings": {
-        "title": "<strong>Start Here</strong>",
+        "title": "<strong>Top 3 Books for new believers & long time followers</strong>",
         "heading_size": "h0",
         "description": "<p>Curated bundles to start building your own library</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "featured-products",
-        "products_to_show": 2,
+        "collection": "top-3-books-for-new-believers-long-time-followers",
+        "products_to_show": 25,
         "grid_width": 70,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 68
+      }
+    },
+    "featured_collection_nrggfh": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h1,h2,p {text-align: center;}"
+      ],
+      "settings": {
+        "title": "<strong>Top 3 Biographies</strong>",
+        "heading_size": "h0",
+        "description": "<p>Curated bundles to start building your own library</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "top-3-biographies",
+        "products_to_show": 25,
+        "grid_width": 70,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -464,7 +496,8 @@
     "rich_text_NCz73a",
     "image_with_text_AfJ4EA",
     "featured_collection_8meUgE",
-    "featured_collection_aHX6wL",
+    "featured_collection_zmWVxh",
+    "featured_collection_nrggfh",
     "featured_collection1",
     "featured_collection_G9ncKh",
     "featured_collection_X4TLPM",
