@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -23,13 +32,13 @@
         "heading_QGFBrJ"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aerial-view-of-a-road-amongst-lush-green-trees.jpg",
+        "image": "shopify://shop_images/aerial-view-of-a-road-amongst-lush-green-trees.jpg",
         "image_overlay_opacity": 20,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
