@@ -193,16 +193,16 @@
       ],
       "settings": {
         "image": "shopify://shop_images/calm-sea-rolling-with-the-current.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 30,
         "image_height": "small",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-45ea2a1d-5b59-4aa8-a666-998f5f419258",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "image_with_text_AfJ4EA": {
