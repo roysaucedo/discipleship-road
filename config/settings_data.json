@@ -43,12 +43,12 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "card",
+    "card_style": "standard",
     "card_image_padding": 20,
     "card_text_alignment": "left",
     "card_color_scheme": "scheme-3",
     "card_border_thickness": 0,
-    "card_border_opacity": 10,
+    "card_border_opacity": 0,
     "card_corner_radius": 28,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
@@ -184,7 +184,7 @@
           "text": "#3c4043",
           "button": "#d97757",
           "button_label": "#f9f6f1",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#d97757",
           "shadow": "#001128"
         }
       },
