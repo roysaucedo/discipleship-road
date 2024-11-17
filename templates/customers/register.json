@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_3jDMi6": {
@@ -7,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "Join The Community",
-            "heading_size": "hxl"
+            "heading_size": "h0"
           }
         }
       },
@@ -15,17 +24,17 @@
         "heading_6Ax8Qy"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aerial-view-of-a-road-amongst-lush-green-trees.jpg",
+        "image": "shopify://shop_images/aerial-view-of-a-road-amongst-lush-green-trees.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-45ea2a1d-5b59-4aa8-a666-998f5f419258",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "main": {
