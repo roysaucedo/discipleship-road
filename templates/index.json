@@ -21,7 +21,6 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Join the Community  (It's 100% Free)",
             "button_link_1": "shopify://pages/join-the-community",
