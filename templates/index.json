@@ -88,7 +88,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_7_3.svg",
             "title": "",
-            "text": "<h1><strong>The Site</strong></h1><p>This site includes a <strong>curated selection of some of the best books for new believers and long-time Christ-followers</strong> wanting to discover more of who Jesus is and what it means to follow Him. Gain critical insight into the generally forgotten heritage of today’s church and <strong>discover long-lost gems</strong>—time-tested books that changed the lives of people in generations past and can also change yours.</p><p>It will include <strong>inspiring videos, enriching audio messages, suggested resources, free materials, and Bible-based encouragement</strong>, made available exclusively to the D-Road Community. Be inspired by encouraging testimonies of heroes of the faith as we re-introduce their powerful stories and holy history to a new generation. Exciting opportunities for multi-media interactivity with other followers of Christ as we learn and grow together in the Discipleship Road Community.</p>",
+            "text": "<h1><em><strong>The Site</strong></em></h1><p>This site includes a <strong>curated selection of some of the best books for new believers and long-time Christ-followers</strong> wanting to discover more of who Jesus is and what it means to follow Him. Gain critical insight into the generally forgotten heritage of today’s church and <strong>discover long-lost gems</strong>—time-tested books that changed the lives of people in generations past and can also change yours.</p><p>It will include <strong>inspiring videos, enriching audio messages, suggested resources, free materials, and Bible-based encouragement</strong>, made available exclusively to the D-Road Community. Be inspired by encouraging testimonies of heroes of the faith as we re-introduce their powerful stories and holy history to a new generation. Exciting opportunities for multi-media interactivity with other followers of Christ as we learn and grow together in the Discipleship Road Community.</p>",
             "link_label": "",
             "link": ""
           }
@@ -98,7 +98,7 @@
           "settings": {
             "image": "shopify://shop_images/Frame_6_2.svg",
             "title": "",
-            "text": "<h1><strong>The Community</strong></h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. </p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! </p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. </p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. </p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!</p>",
+            "text": "<h1><em><strong>The Community</strong></em></h1><p>Regardless of where you are in your journey with Christ you belong in the Discipleship Road Community. In the community you will gain access to free materials that will enrich your footsteps as you walk in your faith. </p><p>You will get to discover and travel through backgrounds of historical and current Christian authors and be the first to know about all the exciting new resources coming soon! Discipleship Road needs someone just like you! </p><p>Just as a pair of disciples discovered Jesus as they walked with Him on the road to Emmaus, let’s aim to discover more of Jesus as we walk together on this road He has laid out for us. </p><p>As a part of the D-Road Community, you’ll be able to participate or share in a non-intrusive way, and you’ll also hear from others in the community who impart their stories and experiences. </p><p>There is no requirement or commitment on your part, though if you do receive any life-changing experiences or significant growth from our resources, we would love to hear your feedback and testimonies!</p>",
             "link_label": "",
             "link": ""
           }
@@ -114,7 +114,7 @@
         "#Slide-template--18480829661410__multicolumn_CehVPG-2 > div > div.multicolumn-card__info > div > button {background: #d97757;}"
       ],
       "settings": {
-        "title": "<strong>A curated selection of some of the best books for new believers and long-time Christ-followers</strong>",
+        "title": "A curated selection of some of the best books for new believers and long-time Christ-followers",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -211,7 +211,7 @@
         "heading_yYpyBV": {
           "type": "heading",
           "settings": {
-            "heading": "Every Christian need their own library",
+            "heading": "<strong>Every Christian need their own library</strong>",
             "heading_size": "h1"
           }
         },
