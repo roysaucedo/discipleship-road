@@ -201,7 +201,9 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      <a href="/account/register" class="button button--primary hide-mobile">Join the Community</a>
+      <a href="/account/register" class="button button--primary hide-mobile">Join the Community 
+      <span style="margin-left: 5px;" class="svg-wrapper"><svg xmlns="http://www.w3.org/2000/svg" fill="none" class="icon icon-arrow" viewBox="0 0 14 10"><path fill="currentColor" fill-rule="evenodd" d="M8.537.808a.5.5 0 0 1 .817-.162l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 1 1-.708-.708L11.793 5.5H1a.5.5 0 0 1 0-1h10.793L8.646 1.354a.5.5 0 0 1-.109-.546" clip-rule="evenodd"></path></svg></span>
+      </a>
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
@@ -527,6 +529,11 @@
     {
       "type": "header",
       "content": "t:sections.header.settings.header__1.content"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
     },
     {
       "type": "color_scheme",

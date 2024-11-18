@@ -1,0 +1,21 @@
+<style>
+    .drawer-product-ctr {
+        padding: 20px 30px;
+    }
+
+    .drawer-product-flex-div {
+        display: flex;
+        gap: 10px;
+    }
+</style>
+<div class="drawer-product-ctr">
+    <h3>Pick of the month</h3>
+    
+        {% render 'card-product',
+        card_product: section.settings.product
+        %}
+        
+
+    
+    
+</div>
