@@ -353,6 +353,7 @@
     },
     "featured_collection_blocks_7giVjX": {
       "type": "featured-collection-blocks",
+      "disabled": true,
       "custom_css": [
         "h1,h2,p {text-align: center;}"
       ],
