@@ -9,7 +9,7 @@
         width: 100%;
         max-width: 100%;
         height: auto;
-        aspect-ratio: 4 / 6;
+        aspect-ratio: 4 / 6.5;
         object-fit: cover;
         object-position: center;
     }
@@ -124,10 +124,18 @@
     {% assign current_collection = collections['explore-the-library'] %}  
     {% assign content_block_number = current_collection.metafields.custom.content_block_position.value %}
     {% assign content_block_image = current_collection.metafields.custom.content.value %}
+
+    {% assign content_block_number_two = current_collection.metafields.custom.content_block_2_position.value %}
+    {% assign content_block_image_two = current_collection.metafields.custom.content_block_2.value %}
+
+    {% assign content_block_number_three = current_collection.metafields.custom.content_block_3_position.value %}
+    {% assign content_block_image_three = current_collection.metafields.custom.content_block_3.value %}
     
     
     {% comment %} DL: MINUS 1 SO WE CAN USE IT AS AN INDEX {% endcomment %}
     {% assign content_block_position = content_block_number | minus:1 %}
+    {% assign content_block_position_two = content_block_number_two | minus:content_block_position %}
+    {% assign content_block_position_three = content_block_number_three | minus:content_block_position_two %}
     
     {%- for product in section.settings.collection.products limit: content_block_position -%}
         <li
@@ -150,6 +158,8 @@
         %}
         </li>
     {%- endfor -%}
+
+    {% comment %} BLOCK 1 {% endcomment %}
     
     {% if content_block_image != blank %}
     <li
@@ -169,8 +179,11 @@
 
     </li>
     {% endif %}
-    
-    {%- for product in section.settings.collection.products offset: content_block_position -%}
+
+
+    {% assign content_block_offset_2 = content_block_position_two | plus: content_block_position  %}
+
+    {%- for product in section.settings.collection.products offset: 3 limit: 4  -%}
         <li class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         {% if settings.animations_reveal_on_scroll %} data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
       >
@@ -187,7 +200,85 @@
         %}
         </li>
     {%- endfor -%}
+
+    {% if content_block_image_two != blank %}
+    <li
+    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4); max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);"
+        {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
+      >
+      <img 
+      src="{{ content_block_image_two | image_url: width: 1000 }}"
+      alt="{{ collection.title }}"
+      loading="lazy"
+      class="collection-content-block-image"
+      width="{{ content_block_image.width }}"
+      height="{{ content_block_image.height }}">
+
+    </li>
+    {% endif %}
+
+    {% assign content_block_offset_3 = content_block_position_two | plus: content_block_position_three  %}
+
+    {%- for product in section.settings.collection.products offset: 7 limit: content_block_position_three -%}
+    <li class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if settings.animations_reveal_on_scroll %} data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
+  >
+    {% render 'card-product',
+      card_product: product,
+      media_aspect_ratio: section.settings.image_ratio,
+      image_shape: section.settings.image_shape,
+      show_secondary_image: section.settings.show_secondary_image,
+      show_vendor: section.settings.show_vendor,
+      show_rating: section.settings.show_rating,
+      skip_styles: skip_card_product_styles,
+      section_id: section.id,
+      quick_add: section.settings.quick_add
+    %}
+    </li>
+{%- endfor -%}
+
+{% if content_block_image_three != blank %}
+<li
+class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4); max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);"
+    {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
+  >
+  <img 
+  src="{{ content_block_image_three | image_url: width: 1000 }}"
+  alt="{{ collection.title }}"
+  loading="lazy"
+  class="collection-content-block-image"
+  width="{{ content_block_image.width }}"
+  height="{{ content_block_image.height }}">
+
+</li>
+{% endif %}
+
+
+{% assign content_block_offset_3 = content_block_position_three | plus: content_block_position_two  %}
+
+{%- for product in section.settings.collection.products offset: 13  -%}
+<li class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+{% if settings.animations_reveal_on_scroll %} data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
+>
+{% render 'card-product',
+  card_product: product,
+  media_aspect_ratio: section.settings.image_ratio,
+  image_shape: section.settings.image_shape,
+  show_secondary_image: section.settings.show_secondary_image,
+  show_vendor: section.settings.show_vendor,
+  show_rating: section.settings.show_rating,
+  skip_styles: skip_card_product_styles,
+  section_id: section.id,
+  quick_add: section.settings.quick_add
+%}
+</li>
+{%- endfor -%}
+
+
   </ul>
+
+
+
   </div>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
