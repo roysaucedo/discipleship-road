@@ -301,7 +301,7 @@
         "collection": "top-3-books-for-new-believers-long-time-followers",
         "products_to_show": 25,
         "grid_width": 100,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
