@@ -319,6 +319,75 @@
         "padding_bottom": 68
       }
     },
+    "featured_product_pj6Jii": {
+      "type": "featured-product",
+      "blocks": {
+        "text_yGWKtH": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_LcCrcE": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_Gf4WtR": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_cpqhQw": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_bLjkcV": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_diaWcA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_YrcWyj": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_yGWKtH",
+        "title_LcCrcE",
+        "price_Gf4WtR",
+        "variant_picker_cpqhQw",
+        "quantity_selector_bLjkcV",
+        "buy_buttons_diaWcA",
+        "share_YrcWyj"
+      ],
+      "settings": {
+        "product": "top-3-books-every-believer-should-own",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_nrggfh": {
       "type": "featured-collection",
       "custom_css": [
@@ -540,6 +609,7 @@
     "image_with_text_AfJ4EA",
     "featured_collection_8meUgE",
     "featured_collection_zmWVxh",
+    "featured_product_pj6Jii",
     "featured_collection_nrggfh",
     "featured_collection_blocks_7giVjX",
     "featured_collection1",
