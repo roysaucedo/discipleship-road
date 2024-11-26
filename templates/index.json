@@ -324,6 +324,7 @@
       "blocks": {
         "text_yGWKtH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -348,6 +349,7 @@
         },
         "quantity_selector_bLjkcV": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons_diaWcA": {
@@ -359,6 +361,7 @@
         },
         "share_YrcWyj": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
