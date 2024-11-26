@@ -9,7 +9,7 @@
         width: 100%;
         max-width: 100%;
         height: auto;
-        aspect-ratio: 4 / 6.5;
+        aspect-ratio: 1 / 1;
         object-fit: cover;
         object-position: center;
     }
@@ -163,7 +163,7 @@
     
     {% if content_block_image != blank %}
     <li
-    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4); max-width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);"
         {% if settings.animations_reveal_on_scroll %}
           data-cascade
           style="--animation-order: {{ forloop.index }};"
@@ -203,7 +203,7 @@
 
     {% if content_block_image_two != blank %}
     <li
-    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4); max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);"
+    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4); max-width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);"
         {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
       >
       <img 
@@ -241,7 +241,7 @@
 
 {% if content_block_image_three != blank %}
 <li
-    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4); max-width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);"
         {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}
       >
       <img 
