@@ -500,6 +500,18 @@
         "padding_bottom": 20
       }
     },
+    "collection_content_block_meHYq3": {
+      "type": "collection-content-block",
+      "disabled": true,
+      "settings": {
+        "h1": "Heading",
+        "p": "<p>Add your paragraph here</p>",
+        "btn_text": "Learn More",
+        "link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_blocks_7giVjX": {
       "type": "featured-collection-blocks",
       "custom_css": [
@@ -694,6 +706,7 @@
     "featured_product_pj6Jii",
     "featured_collection_nrggfh",
     "rich_text_mLtUY3",
+    "collection_content_block_meHYq3",
     "featured_collection_blocks_7giVjX",
     "featured_collection1",
     "featured_collection_G9ncKh",
