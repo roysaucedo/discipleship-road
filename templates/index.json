@@ -423,7 +423,8 @@
     "featured_collection_nrggfh": {
       "type": "featured-collection",
       "custom_css": [
-        "h1,h2,p {text-align: center;}"
+        "h1,h2,p {text-align: center;}",
+        "div {border: none;}"
       ],
       "settings": {
         "title": "<strong>Top 3 Biographies</strong>",
@@ -474,7 +475,7 @@
         "text_wyiKhn"
       ],
       "custom_css": [
-        "div {border-bottom-width: 0px;}"
+        "div {border: none;}"
       ],
       "settings": {
         "desktop_content_position": "center",
