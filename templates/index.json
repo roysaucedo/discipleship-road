@@ -589,7 +589,9 @@
     },
     "featured_collection_X4TLPM": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        "h1,h2,p {text-align: center;}"
+      ],
       "settings": {
         "title": "Discipleship Books for Children",
         "heading_size": "h1",
