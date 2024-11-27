@@ -532,7 +532,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "explore-the-library",
+        "collection": "library-row-1",
         "products_to_show": 4,
         "grid_width": 100,
         "columns_desktop": 4,
