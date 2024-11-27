@@ -264,7 +264,7 @@
       ],
       "settings": {
         "title": "<strong>The Essentials</strong>",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "description": "<p>Your Discipleship Journey Starts Here. </p>",
         "show_description": false,
         "description_style": "body",
@@ -297,7 +297,7 @@
       ],
       "settings": {
         "title": "<strong>Top 3 Books for New Believers & Long Time Followers</strong>",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "description": "<p>Curated bundles to start building your own library</p>",
         "show_description": false,
         "description_style": "body",
@@ -317,7 +317,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 72,
         "padding_bottom": 68
       }
@@ -331,10 +331,24 @@
             "heading": "<strong>BUNDLE & SAVE - GET ALL 3!</strong>",
             "heading_size": "h1"
           }
+        },
+        "text_ANYnt9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SAVE $10</strong> WHEN YOU BUNDLE</p>"
+          }
+        },
+        "text_qTj6JK": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
-        "heading_9atMc4"
+        "heading_9atMc4",
+        "text_ANYnt9",
+        "text_qTj6JK"
       ],
       "custom_css": [
         "div {border: none;}"
@@ -409,7 +423,7 @@
         "product": "top-3-books-every-believer-should-own",
         "color_scheme": "",
         "secondary_background": false,
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
@@ -428,7 +442,7 @@
       ],
       "settings": {
         "title": "<strong>Top 3 Biographies</strong>",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "description": "<p>Curated bundles to start building your own library</p>",
         "show_description": false,
         "description_style": "body",
@@ -448,7 +462,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 72,
         "padding_bottom": 68
       }
@@ -460,7 +474,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>The Library</strong>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_wyiKhn": {
@@ -589,9 +603,11 @@
     },
     "featured_collection_X4TLPM": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        "h1,h2,p {text-align: center;}"
+      ],
       "settings": {
-        "title": "Discipleship Books for Children",
+        "title": "<strong>Discipleship Books for Children</strong>",
         "heading_size": "h1",
         "description": "<p>(Available Jan 2025)</p>",
         "show_description": false,
