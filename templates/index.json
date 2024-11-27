@@ -451,7 +451,7 @@
         "grid_width": 70,
         "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
@@ -462,7 +462,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 72,
         "padding_bottom": 68
       }
