@@ -7,12 +7,19 @@
   }
 
   .collection-content-flex-dev-{{ section.id }} {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    flex-direction: row;
+  }
+
+  .collection-content-content-block {
+    width: 50%;
   }
 
   .collection-content-product-grid {
+    width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -33,7 +40,7 @@
     <div class="page-width">
         <div class="collection-content-flex-dev-{{ section.id }}">
             {% comment %} CONTENT BLOCKS {% endcomment %}
-        <div>
+        <div class="collection-content-content-block">
             {% if section.settings.image != blank %}
             <img src="{{ section.settings.image | image_url: height: 640 }}" alt="{{ section.settings.image.alt | escape }}"
             loading="lazy" width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" class="">
