@@ -556,8 +556,8 @@
     "collection_content_block_fwr4nR": {
       "type": "collection-content-block",
       "settings": {
-        "h1": "",
-        "p": "",
+        "h1": "Become a book missionary!",
+        "p": "<p>Books change lives—and you can be part of that change. By gifting wisdom to others, you're planting seeds of transformation that span generations. </p><p>Start your own ripple of revelation by becoming a book missionary. Share the words that changed your life, and watch hope spread.</p>",
         "btn_text": "Learn More",
         "link": "",
         "image": "shopify://shop_images/Discipleship_Road-Pic-Book_Missionary.jpg",
@@ -749,6 +749,7 @@
         "text_K9bdCC",
         "button_8FUjh4"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Discipleship_Road-Pic-Book_Missionary.jpg",
         "height": "adapt",
