@@ -556,11 +556,11 @@
     "collection_content_block_fwr4nR": {
       "type": "collection-content-block",
       "settings": {
-        "h1": "Heading",
-        "p": "<p>Add your paragraph here</p>",
+        "h1": "",
+        "p": "",
         "btn_text": "Learn More",
         "link": "",
-        "image": "shopify://shop_images/Discipleship_Road-Library.jpg",
+        "image": "shopify://shop_images/Discipleship_Road-Pic-Book_Missionary.jpg",
         "collection": "explore-the-library",
         "color_scheme": "",
         "content_order": "row-reverse",
@@ -605,6 +605,7 @@
     },
     "collection_content_block_aHDKxx": {
       "type": "collection-content-block",
+      "disabled": true,
       "settings": {
         "h1": "Heading",
         "p": "<p>Add your paragraph here</p>",
