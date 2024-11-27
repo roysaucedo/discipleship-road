@@ -17,13 +17,16 @@
   .collection-content-content-block {
     width: 50%;
   }
+  .collection-content-content-block-image {
+    width: 100%;
+    max-width: 100%;
+  }
 
   .collection-content-product-grid {
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-
   }
 
 
@@ -43,7 +46,7 @@
         <div class="collection-content-content-block">
             {% if section.settings.image != blank %}
             <img src="{{ section.settings.image | image_url: height: 640 }}" alt="{{ section.settings.image.alt | escape }}"
-            loading="lazy" width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" class="">
+            loading="lazy" width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" class="collection-content-content-block-image">
             {% else %}
             {{ 'product-1' | placeholder_svg_tag }}
                 
