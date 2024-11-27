@@ -331,10 +331,24 @@
             "heading": "<strong>BUNDLE & SAVE - GET ALL 3!</strong>",
             "heading_size": "h1"
           }
+        },
+        "text_ANYnt9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SAVE $10</strong> WHEN YOU BUNDLE</p>"
+          }
+        },
+        "text_qTj6JK": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
-        "heading_9atMc4"
+        "heading_9atMc4",
+        "text_ANYnt9",
+        "text_qTj6JK"
       ],
       "custom_css": [
         "div {border: none;}"
