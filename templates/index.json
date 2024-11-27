@@ -409,7 +409,7 @@
         "product": "top-3-books-every-believer-should-own",
         "color_scheme": "",
         "secondary_background": false,
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
