@@ -320,11 +320,35 @@
         "padding_bottom": 68
       }
     },
+    "rich_text_e6qQET": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9atMc4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BUNDLE & SAVE - GET ALL 3!</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9atMc4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "featured_product_pj6Jii": {
       "type": "featured-product",
       "blocks": {
         "text_yGWKtH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BUNDLE & SAVE - GET ALL 3!</strong>",
             "text_style": "uppercase"
@@ -612,6 +636,7 @@
     "image_with_text_AfJ4EA",
     "featured_collection_8meUgE",
     "featured_collection_zmWVxh",
+    "rich_text_e6qQET",
     "featured_product_pj6Jii",
     "featured_collection_nrggfh",
     "featured_collection_blocks_7giVjX",
