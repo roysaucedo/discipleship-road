@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-direction: column;
+    flex-direction: column; 
   }
 
   .collection-content-content-block {
@@ -41,7 +41,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-direction: row;
+    flex-direction: {{ section.settings.content_order }};
   }
     .collection-content-content-block {
     width: 50%;
@@ -151,6 +151,22 @@
     {
       "type": "header",
       "content": "t:sections.featured-collection.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "content_order",
+      "options": [
+        {
+          "value": "row",
+          "label": "Content First"
+        },
+        {
+          "value": "row-reverse",
+          "label": "Products First"
+        }
+      ],
+      "default": "row",
+      "label": "Content Order"
     },
     {
       "type": "select",
