@@ -627,6 +627,9 @@
     },
     "featured_collection_AAYGyA": {
       "type": "featured-collection",
+      "custom_css": [
+        "#Slide-template--18480829661410__featured_collection_AAYGyA-1 > div > div > div.card__content > div.card__information > div > div > div > div.price__sale > span:nth-child(2) > s {display: none;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h0",
