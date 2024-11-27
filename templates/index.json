@@ -291,7 +291,8 @@
     "featured_collection_zmWVxh": {
       "type": "featured-collection",
       "custom_css": [
-        "h1,h2,p {text-align: center;}"
+        "h1,h2,p {text-align: center;}",
+        "div {border-bottom-width: 0px;}"
       ],
       "settings": {
         "title": "<strong>Top 3 Books for New Believers & Long Time Followers</strong>",
