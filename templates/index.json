@@ -258,9 +258,7 @@
       "custom_css": [
         "h1,h2,p {text-align: center;}",
         "div {border-bottom-width: 0px;}",
-        "* {}",
-        "#Slide-template--18234166214882__featured_collection_8meUgE-1 > div > div > div.card__content > div.card__information > div > div > div > div.price__sale > span > s {display: none;}",
-        "#Slide-template--18234166214882__featured_collection_8meUgE-2 > div > div > div.card__content > div.card__information > div > div > div > div.price__sale > span:nth-child(2) > s {display: none;}"
+        "s {display: none;}"
       ],
       "settings": {
         "title": "<strong>The Essentials</strong>",
