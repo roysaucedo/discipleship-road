@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "The Greatest Stories Ever Told",
-            "button_link": "shopify:\/\/blogs\/news",
+            "button_link": "shopify://blogs/news",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,10 +50,20 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_KmfXcC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if customer.tags contains \"premium\" %}YESY{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_NRpmCp"
+    "rich_text_NRpmCp",
+    "custom_liquid_KmfXcC"
   ]
 }
