@@ -54,7 +54,7 @@
     "custom_liquid_KmfXcC": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if customer.tags contains \"premium\" %}YESY{% endif %}",
+        "custom_liquid": "{% if customer.tags contains premium %}YESY{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
