@@ -24,8 +24,8 @@
         "heading_6Ax8Qy"
       ],
       "settings": {
-        "image": "shopify://shop_images/aerial-view-of-a-road-amongst-lush-green-trees.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/OtherRoad_pic02B.png",
+        "image_overlay_opacity": 40,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
