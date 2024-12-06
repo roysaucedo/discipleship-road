@@ -45,8 +45,8 @@
         "text_ipDQXA"
       ],
       "settings": {
-        "image": "shopify://shop_images/forest-road.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/Main_Road_Pic.png",
+        "image_overlay_opacity": 30,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
