@@ -418,7 +418,7 @@
         "share_YrcWyj"
       ],
       "custom_css": [
-        ".shopify-installments {display: none;}"
+        "#shopify-installments {display: none;}"
       ],
       "settings": {
         "product": "top-3-books-every-believer-should-own",
