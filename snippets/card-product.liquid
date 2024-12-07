@@ -147,10 +147,18 @@
               </span>
             {%- endif -%}
           </div>
+          
         </div>
       </div>
       <div class="card__content">
         <div class="card__information">
+
+        {% render 'category-tag',
+          card_product: card_product,
+          styles: "font-size: 14px; text-decoration: underline;"
+        %}
+        
+
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
