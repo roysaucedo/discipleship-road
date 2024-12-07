@@ -111,7 +111,8 @@
       "custom_css": [
         "h1,h2 {text-align: center;}",
         "div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}",
-        "#Slide-template--18480829661410__multicolumn_CehVPG-2 > div > div.multicolumn-card__info > div > button {background: #d97757;}"
+        "#Slide-template--18480829661410__multicolumn_CehVPG-2 > div > div.multicolumn-card__info > div > button {background: #d97757;}",
+        "#Slide-template--18557899276514__multicolumn_CehVPG-1 > div {height: auto;}"
       ],
       "settings": {
         "title": "A curated selection of some of the best books for new believers and long-time Christ-followers",
