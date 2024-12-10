@@ -95,6 +95,9 @@
     },
     "main": {
       "type": "main-register",
+      "custom_css": [
+        "h2 {font-weight: bold;}"
+      ],
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
