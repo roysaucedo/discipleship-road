@@ -15,8 +15,8 @@
         "column_d3kmhe": {
           "type": "column",
           "settings": {
-            "title": "Exclusive Content",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Exclusive Content</strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -24,8 +24,8 @@
         "column_DbTM7R": {
           "type": "column",
           "settings": {
-            "title": "Community Meet Ups",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>In-Person Meet Ups</strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -33,8 +33,8 @@
         "column_Dcfcx7": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Community Only Discounts</strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -45,6 +45,9 @@
         "column_DbTM7R",
         "column_Dcfcx7"
       ],
+      "custom_css": [
+        "* {text-align: center;}"
+      ],
       "settings": {
         "title": "<strong>Welcome to the Discipleship Road Community</strong>",
         "heading_size": "h0",
@@ -53,11 +56,120 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_KVqEYF": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "<strong>The Greatest Stories Ever Told</strong>",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_xfNtHV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Yqje9n": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>This week's top pick!</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yqje9n"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_pYnwC9": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Yn7V8h": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_cpqdAj": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_dR3QzA": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_twPaXy": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_pD4RWz": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_DEjEiQ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_9dLTbC": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Yn7V8h",
+        "title_cpqdAj",
+        "price_dR3QzA",
+        "variant_picker_twPaXy",
+        "quantity_selector_pD4RWz",
+        "buy_buttons_DEjEiQ",
+        "share_9dLTbC"
+      ],
+      "settings": {
+        "product": "divine-mentor",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -67,41 +179,6 @@
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_NRpmCp": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_iR88g3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Exclusive Content",
-            "heading_size": "h1"
-          }
-        },
-        "button_BDABLk": {
-          "type": "button",
-          "settings": {
-            "button_label": "The Greatest Stories Ever Told",
-            "button_link": "shopify://blogs/news",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_iR88g3",
-        "button_BDABLk"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "custom_liquid_KmfXcC": {
@@ -116,8 +193,10 @@
   },
   "order": [
     "multicolumn_KVKC8F",
+    "featured_blog_KVqEYF",
+    "rich_text_xfNtHV",
+    "featured_product_pYnwC9",
     "main",
-    "rich_text_NRpmCp",
     "custom_liquid_KmfXcC"
   ]
 }
