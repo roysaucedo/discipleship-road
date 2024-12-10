@@ -74,7 +74,7 @@
         "column_j7yUin"
       ],
       "custom_css": [
-        "* {text-align: center;}"
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
