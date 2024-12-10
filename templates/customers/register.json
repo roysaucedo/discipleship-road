@@ -37,13 +37,6 @@
         "show_text_below": false
       }
     },
-    "main": {
-      "type": "main-register",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_gFh4jc": {
       "type": "multicolumn",
       "blocks": {
@@ -80,6 +73,9 @@
         "column_iW6ErW",
         "column_j7yUin"
       ],
+      "custom_css": [
+        "* {text-align: center;}"
+      ],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
         "heading_size": "h1",
@@ -93,6 +89,13 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-register",
+      "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
