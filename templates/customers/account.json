@@ -43,6 +43,7 @@
         "column_d3kmhe": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_7_3.svg",
             "title": "<strong>Exclusive Content</strong>",
             "text": "",
             "link_label": "",
@@ -52,6 +53,7 @@
         "column_DbTM7R": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_6_2.svg",
             "title": "<strong>In-Person Meet Ups</strong>",
             "text": "",
             "link_label": "",
@@ -61,6 +63,7 @@
         "column_Dcfcx7": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/boook.svg",
             "title": "<strong>Community Only Discounts</strong>",
             "text": "",
             "link_label": "",
@@ -74,7 +77,8 @@
         "column_Dcfcx7"
       ],
       "custom_css": [
-        ".title-wrapper-with-link {justify-content: center;}"
+        ".title-wrapper-with-link {justify-content: center;}",
+        "div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 80px; margin: auto;}"
       ],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
