@@ -169,6 +169,9 @@
       "block_order": [
         "heading_Yqje9n"
       ],
+      "custom_css": [
+        "* {border: none;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
