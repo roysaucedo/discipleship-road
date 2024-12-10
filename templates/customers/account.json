@@ -75,7 +75,7 @@
       ],
       "custom_css": [
         "* {text-align: center;}",
-        "h1, h2, h3, h4 {text-align: center;}"
+        "h1,h2,h3,h4 {text-align: center;}"
       ],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
@@ -154,8 +154,8 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "rich_text_xfNtHV": {
