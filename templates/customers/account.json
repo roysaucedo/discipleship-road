@@ -74,7 +74,7 @@
         "column_Dcfcx7"
       ],
       "custom_css": [
-        "* {text-align: center;}"
+        ".title .inline-richtext .h0 {text-align: center;}"
       ],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
@@ -82,7 +82,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
