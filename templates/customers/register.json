@@ -78,7 +78,7 @@
       ],
       "custom_css": [
         ".title-wrapper-with-link {justify-content: center;}",
-        "img {max-width: 60px;}"
+        "div > div.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing {width: 60px; margin: auto;}"
       ],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
