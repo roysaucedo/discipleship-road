@@ -415,5 +415,10 @@
       },
       "content_for_index": []
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".shopify-installments {display: none;}"
+    ]
   }
 }
