@@ -52,6 +52,7 @@
         "column_iW6ErW": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_6_2.svg",
             "title": "<strong>In-Person Meet Ups</strong>",
             "text": "",
             "link_label": "",
