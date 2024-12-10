@@ -43,6 +43,7 @@
         "column_EfN6LR": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_7_3.svg",
             "title": "<strong>Exclusive Content</strong>",
             "text": "",
             "link_label": "",
@@ -62,6 +63,7 @@
         "column_j7yUin": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/boook.svg",
             "title": "<strong>Community Only Discounts</strong>",
             "text": "",
             "link_label": "",
