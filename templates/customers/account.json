@@ -65,6 +65,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_qpYWMk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rGetpH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Upcoming Event</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_NjqAy7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>DR Community Hike</strong></p><p><strong>Date:</strong> January 1, 2024</p><p><strong>Time:</strong> 8am</p><p><strong>Location: </strong>Mount Everest</p>",
+            "text_style": "body"
+          }
+        },
+        "button_nnBTDk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up Here",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rGetpH",
+        "text_NjqAy7",
+        "button_nnBTDk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/men-hiking-grassy-hills.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_blog_KVqEYF": {
       "type": "featured-blog",
       "settings": {
@@ -193,6 +240,7 @@
   },
   "order": [
     "multicolumn_KVKC8F",
+    "image_with_text_qpYWMk",
     "featured_blog_KVqEYF",
     "rich_text_xfNtHV",
     "featured_product_pYnwC9",
