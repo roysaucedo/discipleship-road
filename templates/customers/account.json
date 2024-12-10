@@ -74,10 +74,11 @@
         "column_Dcfcx7"
       ],
       "custom_css": [
-        "* {text-align: center;}"
+        "* {text-align: center;}",
+        "h1, h2, h3, h4 {text-align: center;}"
       ],
       "settings": {
-        "title": "",
+        "title": "<strong>Community Benefits</strong>",
         "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "adapt",
