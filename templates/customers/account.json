@@ -73,9 +73,7 @@
         "column_DbTM7R",
         "column_Dcfcx7"
       ],
-      "custom_css": [
-        ".title .inline-richtext .h0 {text-align: center;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "<strong>Community Benefits</strong>",
         "heading_size": "h0",
