@@ -43,10 +43,64 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_gFh4jc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EfN6LR": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Exclusive Content</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iW6ErW": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>In-Person Meet Ups</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_j7yUin": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Community Only Discounts</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EfN6LR",
+        "column_iW6ErW",
+        "column_j7yUin"
+      ],
+      "settings": {
+        "title": "<strong>Community Benefits</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_3jDMi6",
+    "multicolumn_gFh4jc",
     "main"
   ]
 }
